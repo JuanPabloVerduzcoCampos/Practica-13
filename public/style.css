@@ -1,0 +1,48 @@
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  thead {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+  }
+  
+  thead th {
+    padding: 12px 15px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tfoot {
+    background-color: #e6e6e6;
+    font-weight: bold;
+  }
+  
+  tfoot td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

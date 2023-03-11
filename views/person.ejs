@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Person</title>
+</head>
+<body>
+    <h3>Hola desde el EJS</h3>
+    <% if (id % 2 === 0) { %>
+        <h1>El número <%= id %> es PAR</h1>
+      <% } else { %>
+        <h1>El número <%= id %> es IMPAR</h1>
+      <% } %>
+      
+      <ul>
+        <% for (let i = 1; i <= id; i++) { %>
+          <li><%= i %></li>
+        <% } %>
+      </ul>
+</body>
+</html>
